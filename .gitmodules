@@ -1,0 +1,3 @@
+[submodule "cjmartian.github.io/public"]
+	path = cjmartian.github.io/public
+	url = https://github.com/cjmartian/cjmartian.github.io.git
