@@ -1,0 +1,54 @@
+baseurl = "https://cjmartian.github.io/"
+languageCode = "en-us"
+title = "Connor Martin"
+theme = "hugo-theme-casper"
+paginate = 2
+canonifyurls = true
+
+[params]
+description = ""
+authorlocation = "Austin, Tx"
+cover = "images/cover.png"
+author = "Connor Martin"
+logo = "images/whole_wheat_bagel.png"
+
+githubName = "cjmartian"
+linkedinName = "cjmartian"
+email = "connormartin7@gmail.com"
+instagramName = "cojamartian"
+hideHUGOSupport = false
+
+[[menu.main]]
+name = "Home"
+weight = 100
+identifier = "home"
+pre = "<br />"
+url = "/"
+
+[[menu.main]]
+name = "Contact"
+weight = 20
+identifier = "contact"
+pre = "<br />"
+url = "/contact"
+
+[[menu.main]]
+name = "Blog"
+identifier = "blog"
+pre = "<br />"
+url = "/post"
+weight = 40
+
+[[menu.main]]
+name = "About"
+weight = 0
+pre = "<br />"
+url = "/about"
+
+[permalinks]
+post = "/:slug/"
+
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
