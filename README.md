@@ -6,3 +6,5 @@ This is the source for what is hosted on cjmartian.github.io
 git submodule update --remote --merge
 
 Then commit and push the changes
+
+Dummy commit
